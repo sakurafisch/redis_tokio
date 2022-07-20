@@ -1,8 +1,5 @@
 use tokio::net::{TcpListener, TcpStream};
 use mini_redis::{Connection, Frame};
-use tokio::task::yield_now;
-use std::hash::Hash;
-use std::rc::Rc;
 use bytes::Bytes;
 use std::collections::HashMap;
 use std::sync::{Arc, Mutex};
